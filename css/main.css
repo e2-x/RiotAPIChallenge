@@ -1,0 +1,85 @@
+      body {
+
+        margin:0;
+      }
+
+      .bgImg {
+        
+
+        background-image: url("http://www.wallpaperup.com/uploads/wallpapers/2014/07/25/406942/eae5082030bea667533af12383ec4e37.jpg");
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;      
+      }
+
+      .main {
+
+        opacity: .91;
+        margin-top: 250px;
+        margin-right: auto;
+        margin: auto;
+        width:60%;
+        height:100%;
+        background-color: #0D0D0D;
+        border-radius: .3em;
+        padding: 0 0 30px 0;
+      }
+
+      ul.navBar {
+        
+        opacity: .91;
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #0D0D0D;
+      }
+      .navBar li {
+
+        width:20%;
+        float: left;
+
+      }
+      .navBar a {
+
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+      }
+      a:hover {
+
+        background-color: #000;
+      }
+      p {
+
+        color: #fff;
+
+      }
+      h1,h3.title {
+
+        text-align: center;
+      }
+      .map {
+
+        width: 800px;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }     
+      .align {
+
+        text-align: center;
+        padding: 15px;
+        margin: 0;        
+      }
+      .champIcon {
+
+        border-radius: 1em;
+        width: 90px;
+        height: 90px;   
+      }
