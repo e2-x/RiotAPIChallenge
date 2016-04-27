@@ -2,10 +2,15 @@ $(document).ready(function() {
   $(function() {
       $(window).scroll(function() {
           var scroll = $(window).scrollTop();
-          if (scroll >= 500) {
-              $(".header-icon").addClass('smaller');
+          if (scroll >= 197) {
+              $(".navIcon").addClass('smaller');
+              $(".navLogoText").addClass("navText");
+              $(".navLogoText").html("<h3>Feels Placeholder Man</h3>");
           } else {
-              $(".header-icon").removeClass("smaller");
+              $(".navIcon").removeClass("smaller");
+              $(".navLogoText").removeClass("navText");
+              $(".navLogoText").html("");
+
           }
       });
   });

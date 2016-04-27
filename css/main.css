@@ -5,16 +5,20 @@
 
       .bgImg {
         
-
+        background-attachment: fixed;
         background-image: url("http://www.wallpaperup.com/uploads/wallpapers/2014/07/25/406942/eae5082030bea667533af12383ec4e37.jpg");
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
         background-size: cover;
         background-repeat: no-repeat;
-        background-position: center;      
+        /*background-position: center; */
+     
       }
+      .row {
 
+        padding-top: 30px;
+      }
       .main {
 
       	z-index: 2;
@@ -27,7 +31,7 @@
         border-radius: .3em;
         padding: 0 0 30px 0;
       }
-      .header-icon {
+      .header-img {
 
       	background: url("../images/bummed.png") no-repeat;
       	width:140px;
@@ -38,7 +42,19 @@
       	z-index: 3;
         margin-right: 0;
       	margin-left: 20px;
-      	margin-top: 20px;
+      }
+      .header-icon {
+
+        background: url("../images/icon.png") no-repeat;
+        width:80px;
+        height:80px;
+        display: block;
+        position: absolute;
+        top: -15;
+        background-size: cover;
+        z-index: 3;
+        margin-left: 30px;
+        
       }
       .header-text {
 
@@ -50,31 +66,55 @@
       }
       .nav ul {
 
+        position: relative;
+        left: 52;
         text-align: center;
       	margin: 0 0 0 250px;
       }
-       .navBar li {
+      .navBar {
 
-        width:200px;
-        float: left;
-
+        border-top:0;
       }
-      .header-icon .smaller {
+      .navBar li {
 
-      	height:75px;
+        width:150px;
+        float: left;
+      }
+      .panel-body {
+
+        height:100%;
+      }
+      .smaller {
+
+        position: absolute;
+        background: url("../images/icon.png") no-repeat;
+        background-size: contain;
+      	height:55px;
+        width: 75px;
+        top: 2px;
+        left: 260px;
       }
 
-      ul.navHover li:hover {
+      .nav ul > li :hover {
 
-        background-color: red !important;
-        width:200px;
+        background-color: #242424 !important;
+        width:150px;
         float: left;
-
       }
 
       p {
 
+        margin: 0;
         color: #fff;
+      }
+      .navText h3 {
+
+        height: 0;
+        top: 15;
+        position: relative;
+        left: 20;
+        margin: 0;
+        color: #337ab7;
 
       }
       h1 {
