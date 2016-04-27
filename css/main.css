@@ -23,7 +23,6 @@
         margin-right: auto;
         margin: auto;
         width:60%;
-        height:1000px;
         background-color: #0D0D0D;
         border-radius: .3em;
         padding: 0 0 30px 0;
@@ -34,11 +33,16 @@
       	width:140px;
       	height:140px;
       	display: block;
-      	position: absolute;
+      	position: relative;
       	background-size: cover;
       	z-index: 3;
+        margin-right: 0;
       	margin-left: 20px;
       	margin-top: 20px;
+      }
+      .header-text {
+
+        position: relative;
       }
       .nav {
 
@@ -46,6 +50,7 @@
       }
       .nav ul {
 
+        text-align: center;
       	margin: 0 0 0 250px;
       }
        .navBar li {
@@ -59,21 +64,26 @@
       	height:75px;
       }
 
+      ul.navHover li:hover {
 
+        background-color: red !important;
+        width:200px;
+        float: left;
 
-
-      a:hover {
-
-        background-color: #000;
       }
+
       p {
 
         color: #fff;
 
       }
       h1 {
-
+        position: relative;
+        margin-left: 200px;
       	margin: 0;
+        display: inline;
+        top: 70px;
+        left: 240px;
       }
       .map {
 
