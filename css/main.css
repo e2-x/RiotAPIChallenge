@@ -71,6 +71,24 @@
         text-align: center;
       	margin: 0 0 0 250px;
       }
+      @media only screen and (max-width: 1000px) {
+      .searchBox {
+
+        display:none !important;
+      }
+      }
+      li.searchBox {
+
+        width:500px;
+      }
+      .navBtn {
+
+        height:34px;
+      }
+      #srch-term {
+
+        width:300px;
+      }
       .navBar {
 
         border-top:0;
@@ -80,9 +98,25 @@
         width:150px;
         float: left;
       }
+      .panel-default {
+
+        border-radius: .5em;
+      }
       .panel-body {
 
         height:100%;
+      }
+      .bgImg .container {
+
+        opacity: .8;
+      }
+      .bgImg .container .panel {
+
+        background-color: #000;
+      }
+      .bgImg .container .panel-default {
+
+        border: none; 
       }
       .smaller {
 
