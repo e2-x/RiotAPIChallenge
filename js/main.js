@@ -1,8 +1,11 @@
 $(document).ready(function() {
   $(function() {
       $(window).scroll(function() {
+
+          var rankFive = "<div class='row'><div class='col-lg-12'><div class='panel-heading'><div class='rankFive'></div></div><div class='panel panel-default'><div><div class='panel-body'></div></div></div></div></div>";
           var scroll = $(window).scrollTop();
-          if (scroll >= 197) {
+          if (scroll >= 150) {
+              $("#containerFive").append(rankFive);
               $(".navIcon").addClass('smaller');
               $(".navLogoText").addClass("navText");
               $(".navLogoText").html("<h3>Feels Placeholder Man</h3>");
