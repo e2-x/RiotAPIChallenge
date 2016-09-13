@@ -4,3 +4,5 @@ In progress project for Riots API Challenge
 
 - Starting with HTML/CSS portion week of 4.25.16
 - Will continue to more backend work the following week.
+
+![alt tag](ss.png?raw=true "Riot Screenshot")
